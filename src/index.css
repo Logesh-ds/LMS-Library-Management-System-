@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Library Theme - Warm scholarly colors */
+    --background: 45 20% 97%;
+    --foreground: 25 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 25 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 15% 15%;
+
+    /* Rich burgundy primary */
+    --primary: 355 65% 25%;
+    --primary-foreground: 45 20% 97%;
+
+    /* Warm cream secondary */
+    --secondary: 45 25% 88%;
+    --secondary-foreground: 25 15% 15%;
+
+    --muted: 45 15% 92%;
+    --muted-foreground: 25 8% 45%;
+
+    /* Golden accent */
+    --accent: 43 74% 66%;
+    --accent-foreground: 25 15% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 45 15% 85%;
+    --input: 45 15% 85%;
+    --ring: 355 65% 25%;
+
+    /* Library-specific colors */
+    --library-gold: 43 74% 66%;
+    --library-burgundy: 355 65% 25%;
+    --library-cream: 45 25% 88%;
+    --library-sage: 120 15% 65%;
+    
+    /* Gradients */
+    --gradient-library: linear-gradient(135deg, hsl(var(--library-burgundy)), hsl(var(--library-gold)));
+    --gradient-books: linear-gradient(180deg, hsl(var(--library-cream)), hsl(var(--library-sage)));
+    
+    /* Shadows */
+    --shadow-book: 0 8px 32px -8px hsl(var(--library-burgundy) / 0.2);
+    --shadow-elegant: 0 4px 20px -4px hsl(var(--library-burgundy) / 0.1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 13% 18%; /* dark gray background */
+    --foreground: 210 16% 80%; /* soft light text */
+
+    --card: 220 13% 23%; /* slightly lighter card */
+    --card-foreground: 210 16% 85%;
+
+    --popover: 220 13% 23%;
+    --popover-foreground: 210 16% 85%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 220 13% 28%;
+    --secondary-foreground: 210 16% 85%;
+
+    --muted: 220 13% 23%;
+    --muted-foreground: 210 10% 60%;
+
+    --accent: 220 13% 28%;
+    --accent-foreground: 210 16% 85%;
+
+    --destructive: 0 62.8% 40.6%;
+    --destructive-foreground: 210 16% 85%;
+
+    --border: 220 13% 23%;
+    --input: 220 13% 23%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 220 13% 23%;
+    --sidebar-foreground: 210 16% 85%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 13% 28%;
+    --sidebar-accent-foreground: 210 16% 85%;
+    --sidebar-border: 220 13% 23%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

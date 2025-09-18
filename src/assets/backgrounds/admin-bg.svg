@@ -1,0 +1,5 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#B08D57"/>
+  <circle cx="960" cy="540" r="400" fill="#F5E9D7" fill-opacity="0.13"/>
+  <text x="50%" y="60%" text-anchor="middle" font-size="80" fill="#B08D57" font-family="Inter, Arial, sans-serif">Admin Portal</text>
+</svg>

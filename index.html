@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Library Management System</title>
+  <meta name="description" content="Modern library management system with role-based access for admins, librarians, students, and faculty." />
+  <meta name="author" content="Smart Library System" />
+  <meta name="keywords" content="library, management, books, students, faculty, admin, librarian, catalog, digital" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Smart Library Management System" />
+  <meta property="og:description" content="Modern library management system with role-based access for admins, librarians, students, and faculty." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/open-book.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Smart Library Management System" />
+  <meta name="twitter:description" content="Modern library management system with role-based access for admins, librarians, students, and faculty." />
+  <meta name="twitter:image" content="/assets/open-book.png" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="manifest" href="/manifest.json" />
+  </head>
+
+  <body>
+    <style>
+      .tooltip {
+        position: relative;
+        cursor: pointer;
+      }
+      .tooltip .tooltip-label {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        left: 50%;
+        bottom: 120%;
+        transform: translateX(-50%);
+        background: #222;
+        color: #fff;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        white-space: nowrap;
+        z-index: 100;
+        transition: opacity 0.2s;
+      }
+      .tooltip:hover .tooltip-label {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

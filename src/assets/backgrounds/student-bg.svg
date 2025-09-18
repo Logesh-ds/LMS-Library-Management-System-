@@ -1,0 +1,6 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#F5E9D7"/>
+  <circle cx="400" cy="300" r="220" fill="#B08D57" fill-opacity="0.15"/>
+  <circle cx="1600" cy="800" r="180" fill="#B08D57" fill-opacity="0.10"/>
+  <text x="50%" y="60%" text-anchor="middle" font-size="80" fill="#B08D57" font-family="Inter, Arial, sans-serif">Student Portal</text>
+</svg>
