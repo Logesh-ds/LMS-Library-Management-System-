@@ -32,7 +32,7 @@ export const Welcome = ({ onContinue, onLogin, onSignup }: { onContinue?: () => 
           Discover, manage, and enjoy your library experience with a modern, secure, and user-friendly platform for everyone.
         </p>
         <div className="flex gap-4">
-          <Button className="bg-gradient-library px-8 py-3 text-lg" onClick={onLogin}>Get Started</Button>
+          <Button className="bg-gradient-library px-8 py-3 text-lg" onClick={onSignup}>Get Started</Button>
           <Button variant="outline" className="px-8 py-3 text-lg" onClick={onSignup}>Sign Up</Button>
         </div>
       </div>
